@@ -1,3 +1,4 @@
+window.addEventListener("load", function(){
 try{
 var win;
 setTimeout(function(){
@@ -10,3 +11,4 @@ win.moveTo(Math.random() * screen.width, Math.random() * screen.height);
 } catch(e){
   alert(e.message);
 }
+});
