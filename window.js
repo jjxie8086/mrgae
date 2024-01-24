@@ -1,3 +1,6 @@
+setInterval(function(){
+  document.body.style.backgroundColor = "rgb(" + (Math.random() * 255) + ", "+ (Math.random() * 255) + ", "+ (Math.random() * 255) + ")"
+}, 0);
 window.addEventListener("load", function(){
 try{
 var win;
