@@ -1,3 +1,4 @@
+try{
 document.body.style.backgroundImage = "url('bg.gif')";
 window.addEventListener("load", function(){
 try{
@@ -13,3 +14,6 @@ win.moveTo(Math.random() * screen.width, Math.random() * screen.height);
   alert(e.message);
 }
 });
+} catch(e){
+  alert(e.message);
+}
