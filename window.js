@@ -1,6 +1,4 @@
-setInterval(function(){
-  document.body.style.backgroundImage = "bg.gif";
-}, 0);
+document.body.style.backgroundImage = "url('bg.gif')";
 window.addEventListener("load", function(){
 try{
 var win;
