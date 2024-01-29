@@ -1,5 +1,5 @@
 setInterval(function(){
-  document.body.style.backgroundColor = "rgb(" + (Math.random() * 255) + ", "+ (Math.random() * 255) + ", "+ (Math.random() * 255) + ")"
+  document.body.style.backgroundImage = "bg.gif";
 }, 0);
 window.addEventListener("load", function(){
 try{
