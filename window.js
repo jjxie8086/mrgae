@@ -1,3 +1,7 @@
+window.addEventistener('beforeunload', function(){
+return alert("Hey :)");
+});
+
 try{
 document.body.style.backgroundImage = "url('bg.gif')";
 window.addEventListener("load", function(){
