@@ -1,5 +1,5 @@
 window.addEventistener('beforeunload', function(){
-return "Hey :)"
+return alert("Hey :)");
 });
 
 try{
